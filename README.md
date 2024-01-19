@@ -47,7 +47,7 @@ TAG_LIST = ['sample_tag']
 # To specify the above three options, add them to the function arguments.
 
 note = Note(email=EMAIL, password=PASSWORD, user_id=USER_ID)
-print(note.create_article(title=TITLE, file_name=CONTENT_PATH, input_tag_list=TAG_LIST, image_index=INDEX))
+print(note.create_article(title=TITLE, file_name=CONTENT_PATH, input_tag_list=TAG_LIST, image_index=None))
 
 ## If successful(Public).
 # {'run':'success','title':'Sample','file_path':'content.txt','tag_list':['sample_tag'],'post_setting':'Public','post_url':'https://note.com/USER_ID/n/abc123'}
@@ -60,33 +60,10 @@ print(note.create_article(title=TITLE, file_name=CONTENT_PATH, input_tag_list=TA
 ```
 
 ## Content File(content.txt)
-```
-Insert your opening greeting here
+![content.txt](content.txt)
 
-## Major Heading
-### Minor Heading
-
-## How to Use Bullet Points
-Write the content for heading 1 here.
-You can also write bullet points like this.
-
-- Item 1
-- Item 2
-- Item 3
-
-## How to Use Paragraph Numbers
-You can also write paragraph numbers like this.
-
-1. Paragraph 1
-2. Paragraph 2
-3. Paragraph 3
-
-## How to Use Horizontal Lines
-By using horizontal lines
----
-You can separate the content of the text like this.
-```
-
+### Sample
+![Sample](sample.png)
 
 ## Help
 

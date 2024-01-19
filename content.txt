@@ -1,0 +1,63 @@
+Insert your opening greeting here
+
+## Major Heading
+### Minor Heading
+
+## How to Use Bullet Points
+Write the content for heading 1 here.
+You can also write bullet points like this.
+
+- Item 1
+- Item 2
+- Item 3
+
+## How to Use Paragraph Numbers
+You can also write paragraph numbers like this.
+
+1. Paragraph 1
+2. Paragraph 2
+3. Paragraph 3
+
+## How to Use Horizontal Lines
+By using horizontal lines
+---
+You can separate the content of the text like this.
+
+## How to Use Quote
+
+- Quote
+> First Quote
+> Second Quote
+> Third Quote
+
+- Block Quote
+```
+#include <stdio.h>
+
+main( )
+{
+  printf("hello, world\n");
+}
+```
+
+## How to Use Table
+note's markdown does not support table.
+so, creating table with $${\KaTeX}$$ array
+
+Headline of https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population 
+
+$$
+\begin{array}{c:l:r}
+\# & \textbf{country} & \textbf{population} \newline\hline\hline
+1 & China & 1,411,750,000 \newline
+2 & India & 1,392,329,000 \newline
+3 & United States & 335,893,238 \newline
+4 & Indonesia & 279,118,866 \newline
+5 & Pakistan & 241,499,431 \newline\hdashline
+6 & Nigeria & 216,783,400 \newline
+7 & Brazil & 203,062,512 \newline
+8 & Bangladesh & 169,828,911 \newline
+9 & Russia & 146,424,729 \newline
+10 & Mexico & 129,406,736 \newline\hline
+\end{array}
+$$
