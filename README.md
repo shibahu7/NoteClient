@@ -59,8 +59,6 @@ print(note.create_article(title=TITLE, file_name=CONTENT_PATH, input_tag_list=TA
 # 'Required data is missing.'
 ```
 
-## Content File(content.txt)
-![content.txt](content.txt)
 
 ### Sample
 ![Sample](sample.png)
